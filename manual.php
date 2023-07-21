@@ -2,7 +2,15 @@
 add_action('admin_menu', 'wp_manual');
 function wp_manual()
 {
-  add_menu_page('操作マニュアル', '操作マニュアル', 'manage_options', 'wp_manual', 'add_wp_manual', 'dashicons-welcome-learn-more', 10);
+  add_menu_page(
+    '操作マニュアル',
+    '操作マニュアル',
+    'edit_posts',
+    'wp_manual',
+    'add_wp_manual',
+    'dashicons-welcome-learn-more',
+    10
+  );
 }
 function add_wp_manual()
 {
