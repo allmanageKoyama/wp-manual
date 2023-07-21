@@ -59,6 +59,17 @@ function self_made_post_type()
         'post-formats',
       ), //編集画面で使用するフィールド
       'show_in_rest' => true,
+      'capabilities' => array(
+        'publish_posts' => 'publish_posts',
+        'edit_posts' => 'edit_posts',
+        'edit_others_posts' => 'edit_others_posts',
+        'delete_posts' => 'delete_posts',
+        'delete_others_posts' => 'delete_others_posts',
+        'read_private_posts' => 'read_private_posts',
+        'edit_post' => 'edit_post',
+        'delete_post' => 'delete_post',
+        'read_post' => 'read_post',
+      ),
     )
   );
 }
