@@ -59,17 +59,17 @@ function self_made_post_type()
         'post-formats',
       ), //編集画面で使用するフィールド
       'show_in_rest' => true,
-      'capabilities' => array(
-        'publish_posts' => 'publish_posts',
-        'edit_posts' => 'edit_posts',
-        'edit_others_posts' => 'edit_others_posts',
-        'delete_posts' => 'delete_posts',
-        'delete_others_posts' => 'delete_others_posts',
-        'read_private_posts' => 'read_private_posts',
-        'edit_post' => 'edit_post',
-        'delete_post' => 'delete_post',
-        'read_post' => 'read_post',
-      ),
+      // 'capabilities' => array(
+      //   'publish_posts' => 'publish_posts',
+      //   'edit_posts' => 'edit_posts',
+      //   'edit_others_posts' => 'edit_others_posts',
+      //   'delete_posts' => 'delete_posts',
+      //   'delete_others_posts' => 'delete_others_posts',
+      //   'read_private_posts' => 'read_private_posts',
+      //   'edit_post' => 'edit_post',
+      //   'delete_post' => 'delete_post',
+      //   'read_post' => 'read_post',
+      // ),
     )
   );
 }
@@ -132,3 +132,17 @@ function manual_script()
 }
 add_action('admin_menu', 'add_manual');
 //ランダムな整数を生成する
+
+// 画像を読み込むショートコードを作成
+function plugin_image_url_shortcode($atts) {
+    $atts = shortcode_atts(
+        array(
+            'file' => 'default.jpg' // デフォルトの画像ファイル名
+        ),
+        $atts,
+        'plugin_image_url'
+    );
+
+    return plugins_url('assets/img/'. 'img'. $atts['file']. '.png', __FILE__);
+}
+add_shortcode('plugin_image_url', 'plugin_image_url_shortcode');
