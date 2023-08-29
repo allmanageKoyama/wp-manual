@@ -134,15 +134,44 @@ add_action('admin_menu', 'add_manual');
 //ランダムな整数を生成する
 
 // 画像を読み込むショートコードを作成
-function plugin_image_url_shortcode($atts) {
-    $atts = shortcode_atts(
-        array(
-            'file' => 'default.jpg' // デフォルトの画像ファイル名
-        ),
-        $atts,
-        'plugin_image_url'
-    );
+function plugin_image_url_shortcode($atts)
+{
+  $atts = shortcode_atts(
+    array(
+      'file' => 'default.jpg' // デフォルトの画像ファイル名
+    ),
+    $atts,
+    'plugin_image_url'
+  );
 
-    return plugins_url('assets/img/'. 'img'. $atts['file']. '.png', __FILE__);
+  return plugins_url('assets/img/' . 'img' . $atts['file'] . '.png', __FILE__);
 }
 add_shortcode('plugin_image_url', 'plugin_image_url_shortcode');
+
+
+// プラグインが有効化された際に実行する関数
+function my_plugin_activation()
+{
+  // XMLファイルのパス
+  $xml_path = MY_PLUGIN_PATH . 'data.xml';
+
+  // XMLファイルが存在するか確認
+  if (file_exists($xml_path)) {
+    // SimpleXMLを使用してXMLをロード
+    $xml = simplexml_load_file($xml_path);
+
+    // XMLの各要素に対してループを回す（例として、<post>要素を基に投稿を作成）
+    foreach ($xml->post as $post_data) {
+      $post_array = array(
+        'post_title'   => (string)$post_data->title,
+        'post_content' => (string)$post_data->content,
+        'post_status'  => 'publish',
+        'post_type'    => 'post', // もしカスタム投稿タイプを使用する場合は、この値を変更
+      );
+
+      // 投稿を作成
+      wp_insert_post($post_array);
+    }
+  }
+}
+register_activation_hook(__FILE__, 'my_plugin_activation');
