@@ -9,7 +9,7 @@
  * Plugin Name: wp-manual
  * Plugin URI:  https://www.e-webseisaku.com/
  * Text Domain: allmanage
- * Description: Wordpressの操作マニュアルを管理画面に追加するプラグイン　クライアントごとに作成するのが非常に大変なので・・・
+ * Description: Wordpressの操作マニュアルを管理画面に追加するプラグイン　有効にすると自動で投稿とデータが生成されます。編集メニューは運用時に非表示にしてください。
  * Author:      y-koyama
  * Author URI:  https://www.e-webseisaku.com/
  * Version:     0.0.1
@@ -59,17 +59,17 @@ function self_made_post_type()
         'post-formats',
       ), //編集画面で使用するフィールド
       'show_in_rest' => true,
-      'capabilities' => array(
-        'publish_posts' => 'publish_posts',
-        'edit_posts' => 'edit_posts',
-        'edit_others_posts' => 'edit_others_posts',
-        'delete_posts' => 'delete_posts',
-        'delete_others_posts' => 'delete_others_posts',
-        'read_private_posts' => 'read_private_posts',
-        'edit_post' => 'edit_post',
-        'delete_post' => 'delete_post',
-        'read_post' => 'read_post',
-      ),
+      // 'capabilities' => array(
+      //   'publish_posts' => 'publish_posts',
+      //   'edit_posts' => 'edit_posts',
+      //   'edit_others_posts' => 'edit_others_posts',
+      //   'delete_posts' => 'delete_posts',
+      //   'delete_others_posts' => 'delete_others_posts',
+      //   'read_private_posts' => 'read_private_posts',
+      //   'edit_post' => 'edit_post',
+      //   'delete_post' => 'delete_post',
+      //   'read_post' => 'read_post',
+      // ),
     )
   );
 }
@@ -132,3 +132,72 @@ function manual_script()
 }
 add_action('admin_menu', 'add_manual');
 //ランダムな整数を生成する
+
+// 画像を読み込むショートコードを作成
+function plugin_image_url_shortcode($atts)
+{
+  $atts = shortcode_atts(
+    array(
+      'file' => 'default.jpg' // デフォルトの画像ファイル名
+    ),
+    $atts,
+    'plugin_image_url'
+  );
+
+  return plugins_url('assets/img/' . 'img' . $atts['file'] . '.png', __FILE__);
+}
+add_shortcode('plugin_image_url', 'plugin_image_url_shortcode');
+
+
+// プラグインが有効化された際に実行する関数
+function my_plugin_activation()
+{
+  // XMLファイルのパス
+  $xml_path = MY_PLUGIN_PATH . 'data.xml';
+
+  // XMLファイルが存在するか確認
+  if (file_exists($xml_path)) {
+    // SimpleXMLを使用してXMLをロード
+    $xml = simplexml_load_file($xml_path);
+
+    // XMLの各要素に対してループを回す（例として、<post>要素を基に投稿を作成）
+    foreach ($xml->channel->item as $post_data) {
+      $post_name_elements = $post_data->children('wp', true)->post_name;
+      if ($post_name_elements && count($post_name_elements) > 0) {
+        $post_name = (string)$post_name_elements[0];
+      } else {
+        $post_name = '';
+      }
+      $content_encoded_elements = $post_data->children('content', true)->encoded;
+      if ($content_encoded_elements && count($content_encoded_elements) > 0) {
+        $post_content = (string)$content_encoded_elements[0];
+      } else {
+        $post_content = '';
+      }
+
+      $post_array = array(
+        'post_title'   => (string)$post_data->title,
+        'post_name'    => $post_name,
+        'post_content' => $post_content,
+        'post_status'  => 'publish',
+        'post_type'    => 'wp_manual',
+      );
+
+      // 投稿を作成する前にスラッグをログに出力
+      error_log('投稿を作成しようとしています。スラッグ: ' . $post_array['post_name']);
+
+      // 投稿の作成を試みる
+      $result = wp_insert_post($post_array, true);
+
+      if (is_wp_error($result)) {
+        // エラーがあった場合、そのエラーメッセージをログに出力
+        error_log('投稿の作成中にエラーが発生しました: ' . $result->get_error_message());
+      } else {
+        // 投稿が成功した場合、作成された投稿のスラッグをログに出力
+        $created_post = get_post($result);
+        error_log('投稿が正常に作成されました。スラッグ: ' . $created_post->post_name);
+      }
+    }
+  }
+}
+register_activation_hook(__FILE__, 'my_plugin_activation');
