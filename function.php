@@ -9,7 +9,7 @@
  * Plugin Name: wp-manual
  * Plugin URI:  https://www.e-webseisaku.com/
  * Text Domain: allmanage
- * Description: Wordpressの操作マニュアルを管理画面に追加するプラグイン　クライアントごとに作成するのが非常に大変なので・・・
+ * Description: Wordpressの操作マニュアルを管理画面に追加するプラグイン　有効にすると自動で投稿とデータが生成されます。編集メニューは運用時に非表示にしてください。
  * Author:      y-koyama
  * Author URI:  https://www.e-webseisaku.com/
  * Version:     0.0.1
