@@ -161,16 +161,42 @@ function my_plugin_activation()
     $xml = simplexml_load_file($xml_path);
 
     // XMLの各要素に対してループを回す（例として、<post>要素を基に投稿を作成）
-    foreach ($xml->post as $post_data) {
+    foreach ($xml->channel->item as $post_data) {
+      $post_name_elements = $post_data->children('wp', true)->post_name;
+      if ($post_name_elements && count($post_name_elements) > 0) {
+        $post_name = (string)$post_name_elements[0];
+      } else {
+        $post_name = '';
+      }
+      $content_encoded_elements = $post_data->children('content', true)->encoded;
+      if ($content_encoded_elements && count($content_encoded_elements) > 0) {
+        $post_content = (string)$content_encoded_elements[0];
+      } else {
+        $post_content = '';
+      }
+
       $post_array = array(
         'post_title'   => (string)$post_data->title,
-        'post_content' => (string)$post_data->content,
+        'post_name'    => $post_name,
+        'post_content' => $post_content,
         'post_status'  => 'publish',
-        'post_type'    => 'post', // もしカスタム投稿タイプを使用する場合は、この値を変更
+        'post_type'    => 'wp_manual',
       );
 
-      // 投稿を作成
-      wp_insert_post($post_array);
+      // 投稿を作成する前にスラッグをログに出力
+      error_log('投稿を作成しようとしています。スラッグ: ' . $post_array['post_name']);
+
+      // 投稿の作成を試みる
+      $result = wp_insert_post($post_array, true);
+
+      if (is_wp_error($result)) {
+        // エラーがあった場合、そのエラーメッセージをログに出力
+        error_log('投稿の作成中にエラーが発生しました: ' . $result->get_error_message());
+      } else {
+        // 投稿が成功した場合、作成された投稿のスラッグをログに出力
+        $created_post = get_post($result);
+        error_log('投稿が正常に作成されました。スラッグ: ' . $created_post->post_name);
+      }
     }
   }
 }
