@@ -57,6 +57,7 @@ function self_made_post_type()
         'editor',
         'custom-fields',
         'post-formats',
+        'page-attributes',
       ), //編集画面で使用するフィールド
       'show_in_rest' => true,
       // 'capabilities' => array(
