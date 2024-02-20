@@ -202,3 +202,19 @@ function my_plugin_activation()
   }
 }
 register_activation_hook(__FILE__, 'my_plugin_activation');
+
+// プラグインが無効化された際に実行される関数
+function my_plugin_deactivation()
+{
+  // カスタム投稿タイプ'wp_manual'に関連する投稿を検索し、削除する
+  $posts = get_posts(array(
+    'post_type' => 'wp_manual',
+    'numberposts' => -1,
+    'post_status' => 'any'
+  ));
+
+  foreach ($posts as $post) {
+    wp_delete_post($post->ID, true); // trueはゴミ箱に移動せずに完全に削除することを指示
+  }
+}
+register_deactivation_hook(__FILE__, 'my_plugin_deactivation');

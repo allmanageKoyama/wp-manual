@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<channel>
+	
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+	<channel>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
-
+<item>
 		<wp:post_name><![CDATA[wp_manual-0-1]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
@@ -78,7 +86,8 @@
 <p></p>
 <!-- /wp:paragraph -->]]>
 </content:encoded>
-		
+		</item>
+<item>
 		<wp:post_name><![CDATA[wp_manual-0-2]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
@@ -119,7 +128,8 @@
 <p></p>
 <!-- /wp:paragraph -->]]>
 </content:encoded>
-
+</item>
+<item>
 		<wp:post_name><![CDATA[wp_manual-0-4]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
@@ -204,7 +214,8 @@
 <figure class="wp-block-image size-large"><img src="[plugin_image_url file='5-4']" alt=""/></figure>
 <!-- /wp:image -->]]>
 </content:encoded>
-
+</item>
+<item>
 		<wp:post_name><![CDATA[wp_manual-0-3]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
@@ -301,7 +312,8 @@
 <p>各種マニュアル一覧へのリンクです。<br>遷移した先のページでマニュアルを確認できます。</p>
 <!-- /wp:paragraph -->]]>
 </content:encoded>
-
+</item>
+<item>
 		<wp:post_name><![CDATA[wp_manual-0]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
@@ -394,7 +406,8 @@
 <hr class="wp-block-separator has-css-opacity"/>
 <!-- /wp:separator -->]]>
 </content:encoded>
-	
+	</item>
+<item>
 		<wp:post_name><![CDATA[wp_manual-0-7]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
@@ -863,7 +876,8 @@
 <p></p>
 <!-- /wp:paragraph -->]]>
 </content:encoded>
-
+</item>
+<item>
 		<wp:post_name><![CDATA[wp_manual-0-5]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
@@ -1008,6 +1022,7 @@
 		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[manual-07]]></wp:meta_value>
 		</wp:postmeta>
-							
+							</item>
 				</channel>
+				</rss>
 	
