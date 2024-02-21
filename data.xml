@@ -9,213 +9,8 @@
 >
 	<channel>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
-<item>
-		<wp:post_name><![CDATA[wp_manual-0-1]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
-		<title><![CDATA[【メディア】画像・ファイルの登録・削除]]></title>
-		<content:encoded><![CDATA[<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='2-1']" alt=""/></figure>
-<!-- /wp:image -->
 
-<!-- wp:paragraph -->
-<p>管理画面の左側サイドの「<strong>メディア</strong>」をクリックすると上の画像の画面が表示されます。<br>ここでは<br>「<strong><span class="tadv-color" style="color:#cc1111">①</span> 登録済の画像・ファイルの確認</strong>」<br>「<strong><span class="tadv-color" style="color:#cc1111">②</span> 画像・ファイルの新規追加</strong>」<br>「<strong><span class="tadv-color" style="color:#cc1111">③</span> 画像・ファイルの削除</strong>」<br>を行うことが可能です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
-
-<!-- wp:heading {"textAlign":"left"} -->
-<h2 class="wp-block-heading has-text-align-left">① 登録済の画像・ファイルの確認</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>ここでは登録済の画像・ファイルが一覧で表示されます。<br>またそれぞれの画像・ファイルをクリックするとより詳細な情報を表示することも可能です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='2-2']" alt=""/><figcaption class="wp-element-caption">※画像・ファイルの詳細情報画面</figcaption></figure>
-<!-- /wp:image -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
-
-<!-- wp:heading {"textAlign":"left"} -->
-<h2 class="wp-block-heading has-text-align-left">② 画像・ファイルの新規追加</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>「<strong>新規追加</strong>」ボタンをクリックすると以下の様なアップロード画面が表示されます。<br>画像・ファイルを画面内でドラッグ＆ドロップしていただくか、「<strong>ファイルを選択</strong>」ボタンを押していただいてアップロードしたい画像・ファイルを選択いただくことで新規追加が可能です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='2-3']" alt=""/><figcaption class="wp-element-caption">※新規追加クリック後の画面</figcaption></figure>
-<!-- /wp:image -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
-
-<!-- wp:heading {"textAlign":"left"} -->
-<h2 class="wp-block-heading has-text-align-left">③ 画像・ファイルの削除</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>「<strong>一括選択</strong>」ボタンをクリックすると以下の様な画面が表示されます。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><strong>削除したい画像を選択（<strong><span class="tadv-color" style="color:#102bcb"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-vivid-cyan-blue-color">①</mark></span></strong>）</strong>いただいた上で「<strong>完全に削除する（<strong><span class="tadv-color" style="color:#102bcb"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-vivid-cyan-blue-color">②</mark></span></strong>）</strong>」ボタンをクリックいただくと画像・ファイルの削除が可能です。<br>※ 一度に複数の画像の削除も可能です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>削除をやめたい場合は「<strong>キャンセル（</strong><strong><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-vivid-cyan-blue-color">③</mark></strong>）</strong>」ボタンをクリックすることで前の画面に戻ることが可能です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='2-4']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->]]>
-</content:encoded>
-		</item>
-<item>
-		<wp:post_name><![CDATA[wp_manual-0-2]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
-		<title><![CDATA[【メディア】画像・ファイルの追加・挿入]]></title>
-		<content:encoded><![CDATA[<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='3-1']" alt=""/><figcaption class="wp-element-caption">※ サンプル01</figcaption></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"id":359,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.kohnoplatec.jp/wp/wp-content/uploads/2023/07/image-11.png" alt="" class="wp-image-359"/><figcaption class="wp-element-caption">※ サンプル02</figcaption></figure>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>投稿に画像・ファイルを追加・挿入する際は上記のような表示の箇所から行うことが可能です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>「<strong>※ サンプル01 画像</strong>」の「<strong>アップロード（<span style="color:#cc1111" class="tadv-color">①</span>）</strong>」をクリックいただいてアップロードしたい画像・ファイルを選択していただくか、「<strong>※ サンプル01 画像</strong>」の「<strong>メディアライブラリ（<span style="color:#cc1111" class="tadv-color">②</span>）</strong>」または「<strong>※ サンプル02 画像</strong>」の「<strong>メディアを追加（<span style="color:#cc1111" class="tadv-color">③</span>）</strong>」ボタンをクリックすると表示される以下の画面から画像を追加・挿入することが可能です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='3-2']" alt=""/><figcaption class="wp-element-caption">※ 画像・ファイルのアップロード画面</figcaption></figure>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>画像・ファイルの挿入を新規追加から行う場合は、左上のタブに「<strong>ファイルをアップロード</strong>」が選択されていることを確認の上で画像やファイルを画面内にドラッグ＆ドロップしてアップロードしてください。<br>※既に登録済みの場合はこの操作は不要です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='3-3']" alt=""/><figcaption class="wp-element-caption">※ 画像・ファイルの選択画面</figcaption></figure>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>画像・ファイルの新規追加が完了すると上記のような画面が表示されますので、左上のタブに「<strong>メディアライブラリ（<span class="tadv-color" style="color:#102bcb">①</span>）</strong>」が選択されていることを確認の上で<strong>挿入したい画像・ファイルを選択（<span class="tadv-color" style="color:#102bcb">②</span>）</strong>（青いチェックが付く）してください。<br>最後に右下の「<strong>選択（<span class="tadv-color" style="color:#102bcb">③</span>）</strong>」ボタンをクリックすると画像・ファイルが挿入されます。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->]]>
-</content:encoded>
-</item>
-<item>
-		<wp:post_name><![CDATA[wp_manual-0-4]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
-		<title><![CDATA[TOPICS・入試情報の公開方法]]></title>
-		<content:encoded><![CDATA[<!-- wp:heading -->
-<h2 class="wp-block-heading">ブロックエディタでの公開方法</h2>
-<!-- /wp:heading -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='5-1']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>ブロックエディタの投稿の公開設定を操作する場合には上記画像の<span style="color:#cc1111" class="tadv-color">①～⑦</span>のボタンを操作することで可能です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">①</span> 「下書き保存」</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>投稿が最後まで完成していない等の理由で公開はしないが保存はしておきたい際にクリックいただくと「下書き」という形で投稿を保存できます。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">②</span> 「プレビュー」</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>作成途中もしくは編集した投稿の表示を保存することなくブラウザで確認できる機能となります。<br>問題がないことを確認の上で投稿を公開させることができます。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">③</span> 「投稿グループ名タブ（例：NEWS）」</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>投稿のステータスや公開日時を変更する際には、「<strong>投稿グループ名タブ</strong>」が選択されていることを確認してください。<br>※このタブが選択されていない場合は以下の<span style="color:#cc1111" class="tadv-color">④～⑥</span>の操作フィールドが表示されません。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">④</span> 「表示状態」</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>「公開」ボタンをクリックしていただくと表示される以下のポップアップから投稿の表示状態が操作可能です。<br>そのまま公開したい場合は操作不要です。「<strong>非公開</strong>」を選択するとログインしているユーザーにだけページが確認できるようになります。また「<strong>パスワード保護</strong>」を選択した場合はページに任意のパスワードで保護することが可能です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='5-2']" alt=""/><figcaption class="wp-element-caption">※ 公開状態設定ポップアップ</figcaption></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">⑤</span> 「公開（公開日時）」</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>「今すぐ」ボタンをクリックしていただくと表示される以下のポップアップから投稿の公開日時が操作可能です。<br>日時の変更が不要の場合は操作不要です。<br>未来の日時を設定した場合は、「<strong>予約投稿</strong>」となり設定した日時以降の時間になると自動で表示されるようになります。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='5-3']" alt=""/><figcaption class="wp-element-caption">※ 公開日時設定ポップアップ</figcaption></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">⑥</span> 「ゴミ箱へ移動」</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>投稿が不要になった際は「<strong>ゴミ箱へ移動</strong>」ボタンをクリックしていただくことで削除可能です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">⑦</span> 「公開」</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>投稿の内容が完成しましたら「<strong>公開</strong>」ボタンとクリックすることで投稿を公開（保存）することが可能です。<br>「新規追加」の場合には以下の赤枠のような確認の画面が表示されますので問題が無ければ再度「<strong>公開</strong>」ボタンをクリックしてください。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='5-4']" alt=""/></figure>
-<!-- /wp:image -->]]>
-</content:encoded>
-</item>
-<item>
+	<item>
 		<wp:post_name><![CDATA[wp_manual-0-3]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
@@ -241,7 +36,58 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"left"} -->
-<h2 class="wp-block-heading has-text-align-left" id="②-メディア">② メディア</h2>
+<h2 class="wp-block-heading has-text-align-left" id="③-お知らせ">① 新着情報</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>新着情報の新規追加や編集を行う画面です。<br>詳細は以下をご確認ください。</p>
+<!-- /wp:paragraph -->
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li><a class="p-manual_link" data-to_view="5">【投稿記事】新規追加・編集・削除</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a class="p-manual_link" data-to_view="2">ブロックエディタの使い方</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a class="p-manual_link" data-to_view="4">【メディア】画像・ファイルの追加・挿入</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a class="p-manual_link" data-to_view="6">【投稿記事】公開方法</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"textAlign":"left"} -->
+<h2 class="wp-block-heading has-text-align-left" id="③-制作実績">③ 制作実績</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>制作実績の新規追加や編集を行う画面です。<br>詳細は以下をご確認ください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li><a class="p-manual_link" data-to_view="5">【投稿記事】新規追加・編集・削除</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a class="p-manual_link" data-to_view="2">ブロックエディタの使い方</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a class="p-manual_link" data-to_view="4">【メディア】画像・ファイルの追加・挿入</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a class="p-manual_link" data-to_view="6">【投稿記事】公開方法</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"textAlign":"left"} -->
+<h2 class="wp-block-heading has-text-align-left" id="③-メディア">③ メディア</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -249,164 +95,12 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<a class="p-manual_link" data-to_view="2">【メディア】画像・ファイルの登録・削除</a>
+<a class="p-manual_link" data-to_view="3">【メディア】画像・ファイルの登録・削除</a>
 <!-- /wp:html -->
 
-<!-- wp:heading {"textAlign":"left"} -->
-<h2 class="wp-block-heading has-text-align-left" id="③-お知らせ">③ TOPICS</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>「TOPICS」投稿の新規追加や編集を行う画面です。<br>詳細は以下をご確認ください。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><!-- wp:list-item -->
-<li><a class="p-manual_link" data-to_view="6">TOPICSの新規追加・編集</a></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><a class="p-manual_link" data-to_view="4">ブロックエディタの使い方</a></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><a class="p-manual_link" data-to_view="3">【メディア】画像・ファイルの追加・挿入</a></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><a class="p-manual_link" data-to_view="5">TOPICSの公開方法</a></li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list -->
-
-<!-- wp:heading {"textAlign":"left"} -->
-<h2 class="wp-block-heading has-text-align-left" id="⑤-wpマニュアル">④入試情報</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>「入試情報」投稿の新規追加や編集を行う画面です。<br>詳細は以下をご確認ください。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><!-- wp:list-item -->
-<li><a class="p-manual_link" data-to_view="6">入試情報の新規追加・編集</a></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><a class="p-manual_link" data-to_view="4">ブロックエディタの使い方</a></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><a class="p-manual_link" data-to_view="3">【メディア】画像・ファイルの追加・挿入</a></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><a class="p-manual_link" data-to_view="5">入試情報の公開方法</a></li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list -->
-
-<!-- wp:heading {"textAlign":"left"} -->
-<h2 class="wp-block-heading has-text-align-left" id="④-固定ページ">⑤ 操作マニュアル</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>各種マニュアル一覧へのリンクです。<br>遷移した先のページでマニュアルを確認できます。</p>
-<!-- /wp:paragraph -->]]>
+]]>
 </content:encoded>
 </item>
-<item>
-		<wp:post_name><![CDATA[wp_manual-0]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
-		<title><![CDATA[TOPICS・入試情報の新規追加・編集・削除]]></title>
-		<content:encoded><![CDATA[<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='6-1']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>管理画面の左側サイドから新規追加や編集・削除を行いたい投稿グループのメニューをクリックいただくと上記のような画面が表示されます。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>新しく投稿を追加する場合は「<strong>新規追加（<span class="tadv-color" style="color:#cc1111">①</span>）</strong>」ボタンをクリックしてください。<br>既存の投稿を編集する場合は該当の投稿にカーソルを合わせると表示される「<strong>編集（<span class="tadv-color" style="color:#cc1111">②</span>）</strong>」をクリックしてください。<br>投稿を削除する場合は「<strong>ゴミ箱へ移動（<span class="tadv-color" style="color:#cc1111">③</span>）</strong>」をクリックしてください。<br>※ 上記の操作についてはすべての投稿グループで共通の操作方法となります。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading" id="ブロックエディタ-新規追加-編集">【ブロックエディタ】新規追加・編集</h2>
-<!-- /wp:heading -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='6-2']" alt=""/><figcaption class="wp-element-caption">※ ブロックエディターの基本的な画面</figcaption></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading" id="①-タイトル"><span style="color:#cc1111" class="tadv-color">①</span> タイトル</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>投稿のタイトルを入力してください。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading" id="②-コンテンツ"><span style="color:#cc1111" class="tadv-color">②</span> コンテンツ</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>投稿のメインコンテンツ部分を作成できます。<br>詳しくは以下をご確認ください。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><!-- wp:list-item -->
-<li><a class="p-manual_link" data-to_view="4">ブロックエディタの使い方</a></li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li><a class="p-manual_link" data-to_view="3">画像・ファイルの追加・挿入</a></li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading" id="③-公開設定"><span style="color:#cc1111" class="tadv-color">③</span> 公開設定</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>投稿の公開設定を編集できます。<br>詳しくは以下をご確認ください。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><!-- wp:list-item -->
-<li><a class="p-manual_link" data-to_view="5">投稿の公開方法</a></li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading" id="④-パーマリンク"><span style="color:#cc1111" class="tadv-color">④</span> パーマリンク</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>操作の必要はありません。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading" id="⑤-カテゴリ"><span class="tadv-color" style="color:#cc1111">⑤</span> アイキャッチ画像</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>トップページや記事一覧ページの見出し画像を設定できます。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->]]>
-</content:encoded>
-	</item>
 <item>
 		<wp:post_name><![CDATA[wp_manual-0-7]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
@@ -877,152 +571,310 @@
 <!-- /wp:paragraph -->]]>
 </content:encoded>
 </item>
+
 <item>
-		<wp:post_name><![CDATA[wp_manual-0-5]]></wp:post_name>
+		<wp:post_name><![CDATA[wp_manual-0-1]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
-		<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[wp_manual-0]]></wp:meta_value>
-		</wp:postmeta>
-		<title><![CDATA[産学連携の新規追加・編集・削除]]></title>
-		<content:encoded><![CDATA[<!-- wp:separator {"opacity":"css"} -->
+		<title><![CDATA[【メディア】画像・ファイルの登録・削除]]></title>
+		<content:encoded><![CDATA[<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="[plugin_image_url file='2-1']" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>管理画面の左側サイドの「<strong>メディア</strong>」をクリックすると上の画像の画面が表示されます。<br>ここでは<br>「<strong><span class="tadv-color" style="color:#cc1111">①</span> 登録済の画像・ファイルの確認</strong>」<br>「<strong><span class="tadv-color" style="color:#cc1111">②</span> 画像・ファイルの新規追加</strong>」<br>「<strong><span class="tadv-color" style="color:#cc1111">③</span> 画像・ファイルの削除</strong>」<br>を行うことが可能です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator {"opacity":"css"} -->
 <hr class="wp-block-separator has-css-opacity"/>
 <!-- /wp:separator -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading">① 産学連携の新規追加</h2>
+<!-- wp:heading {"textAlign":"left"} -->
+<h2 class="wp-block-heading has-text-align-left">① 登録済の画像・ファイルの確認</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>産学連携の一覧上部にある「<strong>作品を追加</strong>」から行います</p>
+<p>ここでは登録済の画像・ファイルが一覧で表示されます。<br>またそれぞれの画像・ファイルをクリックするとより詳細な情報を表示することも可能です。</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":434,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://www.kohnoplatec.jp/wp/wp-content/uploads/2023/07/08-1024x334.jpg" alt="" class="wp-image-434"/><figcaption class="wp-element-caption">※産学連携の新規登録画面</figcaption></figure>
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="[plugin_image_url file='2-2']" alt=""/><figcaption class="wp-element-caption">※画像・ファイルの詳細情報画面</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:separator {"opacity":"css"} -->
 <hr class="wp-block-separator has-css-opacity"/>
 <!-- /wp:separator -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading">② 産学連携の登録方法について</h2>
+<!-- wp:heading {"textAlign":"left"} -->
+<h2 class="wp-block-heading has-text-align-left">② 画像・ファイルの新規追加</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>登録できる内容は以下の通りです。</p>
+<p>「<strong>新規追加</strong>」ボタンをクリックすると以下の様なアップロード画面が表示されます。<br>画像・ファイルを画面内でドラッグ＆ドロップしていただくか、「<strong>ファイルを選択</strong>」ボタンを押していただいてアップロードしたい画像・ファイルを選択いただくことで新規追加が可能です。</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:list -->
-<ul><!-- wp:list-item -->
-<li>①　作品のタイトルの入力　作品のタイトルを入力してください</li>
-<!-- /wp:list-item -->
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="[plugin_image_url file='2-3']" alt=""/><figcaption class="wp-element-caption">※新規追加クリック後の画面</figcaption></figure>
+<!-- /wp:image -->
 
-<!-- wp:list-item -->
-<li>②　コンテンツタイトル　概要紹介の大見出しに表示されます。</li>
-<!-- /wp:list-item -->
+<!-- wp:separator {"opacity":"css"} -->
+<hr class="wp-block-separator has-css-opacity"/>
+<!-- /wp:separator -->
 
-<!-- wp:list-item -->
-<li>③　コンテンツ概要　概要紹介の中見出しに表示されます。</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>④　作品画像　作品紹介の画像を投稿することができます。</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>⑤　公開　トップページ、一覧ページ、詳細ページが公開されます。</li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list -->
+<!-- wp:heading {"textAlign":"left"} -->
+<h2 class="wp-block-heading has-text-align-left">③ 画像・ファイルの削除</h2>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>登録から公開までは上記の番号順の流れになります。</p>
+<p>「<strong>一括選択</strong>」ボタンをクリックすると以下の様な画面が表示されます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>削除したい画像を選択（<strong><span class="tadv-color" style="color:#102bcb"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-vivid-cyan-blue-color">①</mark></span></strong>）</strong>いただいた上で「<strong>完全に削除する（<strong><span class="tadv-color" style="color:#102bcb"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-vivid-cyan-blue-color">②</mark></span></strong>）</strong>」ボタンをクリックいただくと画像・ファイルの削除が可能です。<br>※ 一度に複数の画像の削除も可能です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>削除をやめたい場合は「<strong>キャンセル（</strong><strong><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-vivid-cyan-blue-color">③</mark></strong>）</strong>」ボタンをクリックすることで前の画面に戻ることが可能です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">③ 作品画像の登録について</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>「<strong>追加</strong>」ボタンをクリックすると以下の様な画面が表示されます。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":435,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://www.kohnoplatec.jp/wp/wp-content/uploads/2023/07/09-1024x343.jpg" alt="" class="wp-image-435"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>「<strong>ファイルを追加</strong>」ボタンをクリックして<strong>メディア</strong>から画像を追加してください。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><!-- wp:list-item -->
-<li><a class="p-manual_link" data-to_view="2">【メディア】画像・ファイルの登録・削除</a></li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-<p>さらに「<strong>追加</strong>」ボタンをクリックすることによって複数の画像を設定することができます。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":436,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.kohnoplatec.jp/wp/wp-content/uploads/2023/07/10.jpg" alt="" class="wp-image-436"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">④ 産学連携の編集について</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>投稿済みの産学連携を編集するには、左側の「<strong>産学連携</strong>」をクリックして一覧画面から編集する投稿を選択します。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":437,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.kohnoplatec.jp/wp/wp-content/uploads/2023/07/11.jpg" alt="" class="wp-image-437"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>投稿済みの産学連携を編集した場合は、「<strong>更新</strong>」ボタンに表記が変わっていますのでクリックして更新を完了させてください。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":342,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://hatajuken.web-checker3.net/wp/wp-content/uploads/2023/06/img12.png" alt="" class="wp-image-342"/></figure>
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="[plugin_image_url file='2-4']" alt=""/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 <p></p>
 <!-- /wp:paragraph -->]]>
 </content:encoded>
-
-		<wp:post_name><![CDATA[manual-07__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
+		</item>
+<item>
+		<wp:post_name><![CDATA[wp_manual-0-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
-		<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[manual-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
+		<title><![CDATA[【メディア】画像・ファイルの追加・挿入]]></title>
+		<content:encoded><![CDATA[<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="[plugin_image_url file='3-1']" alt=""/><figcaption class="wp-element-caption">※ サンプル01</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":359,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://www.kohnoplatec.jp/wp/wp-content/uploads/2023/07/image-11.png" alt="" class="wp-image-359"/><figcaption class="wp-element-caption">※ サンプル02</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>投稿に画像・ファイルを追加・挿入する際は上記のような表示の箇所から行うことが可能です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>「<strong>※ サンプル01 画像</strong>」の「<strong>アップロード（<span style="color:#cc1111" class="tadv-color">①</span>）</strong>」をクリックいただいてアップロードしたい画像・ファイルを選択していただくか、「<strong>※ サンプル01 画像</strong>」の「<strong>メディアライブラリ（<span style="color:#cc1111" class="tadv-color">②</span>）</strong>」または「<strong>※ サンプル02 画像</strong>」の「<strong>メディアを追加（<span style="color:#cc1111" class="tadv-color">③</span>）</strong>」ボタンをクリックすると表示される以下の画面から画像を追加・挿入することが可能です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="[plugin_image_url file='3-2']" alt=""/><figcaption class="wp-element-caption">※ 画像・ファイルのアップロード画面</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>画像・ファイルの挿入を新規追加から行う場合は、左上のタブに「<strong>ファイルをアップロード</strong>」が選択されていることを確認の上で画像やファイルを画面内にドラッグ＆ドロップしてアップロードしてください。<br>※既に登録済みの場合はこの操作は不要です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="[plugin_image_url file='3-3']" alt=""/><figcaption class="wp-element-caption">※ 画像・ファイルの選択画面</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>画像・ファイルの新規追加が完了すると上記のような画面が表示されますので、左上のタブに「<strong>メディアライブラリ（<span class="tadv-color" style="color:#102bcb">①</span>）</strong>」が選択されていることを確認の上で<strong>挿入したい画像・ファイルを選択（<span class="tadv-color" style="color:#102bcb">②</span>）</strong>（青いチェックが付く）してください。<br>最後に右下の「<strong>選択（<span class="tadv-color" style="color:#102bcb">③</span>）</strong>」ボタンをクリックすると画像・ファイルが挿入されます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]>
+</content:encoded>
+</item>
+
+<item>
+		<wp:post_name><![CDATA[wp_manual-0]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
+		<title><![CDATA[【投稿記事】新規追加・編集・削除]]></title>
+		<content:encoded><![CDATA[<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="[plugin_image_url file='6-1']" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>管理画面の左側サイドから新規追加や編集・削除を行いたい投稿グループのメニューをクリックいただくと上記のような画面が表示されます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>新しく投稿を追加する場合は「<strong>新規追加（<span class="tadv-color" style="color:#cc1111">①</span>）</strong>」ボタンをクリックしてください。<br>既存の投稿を編集する場合は該当の投稿にカーソルを合わせると表示される「<strong>編集（<span class="tadv-color" style="color:#cc1111">②</span>）</strong>」をクリックしてください。<br>投稿を削除する場合は「<strong>ゴミ箱へ移動（<span class="tadv-color" style="color:#cc1111">③</span>）</strong>」をクリックしてください。<br>※ 上記の操作についてはすべての投稿グループで共通の操作方法となります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator {"opacity":"css"} -->
+<hr class="wp-block-separator has-css-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading" id="ブロックエディタ-新規追加-編集">【ブロックエディタ】新規追加・編集</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="[plugin_image_url file='6-2']" alt=""/><figcaption class="wp-element-caption">※ ブロックエディターの基本的な画面</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading" id="①-タイトル"><span style="color:#cc1111" class="tadv-color">①</span> タイトル</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>投稿のタイトルを入力してください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading" id="②-コンテンツ"><span style="color:#cc1111" class="tadv-color">②</span> コンテンツ</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>投稿のメインコンテンツ部分を作成できます。<br>詳しくは以下をご確認ください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li><a class="p-manual_link" data-to_view="2">ブロックエディタの使い方</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a class="p-manual_link" data-to_view="4">画像・ファイルの追加・挿入</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading" id="③-公開設定"><span style="color:#cc1111" class="tadv-color">③</span> 公開設定</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>投稿の公開設定を編集できます。<br>詳しくは以下をご確認ください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li><a class="p-manual_link" data-to_view="6">投稿の公開方法</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading" id="④-パーマリンク"><span style="color:#cc1111" class="tadv-color">④</span> パーマリンク</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>操作の必要はありません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading" id="⑤-カテゴリ"><span class="tadv-color" style="color:#cc1111">⑤</span> アイキャッチ画像</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>トップページや記事一覧ページの見出し画像を設定できます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator {"opacity":"css"} -->
+<hr class="wp-block-separator has-css-opacity"/>
+<!-- /wp:separator -->]]>
+</content:encoded>
+	</item>
+
+	<item>
+		<wp:post_name><![CDATA[wp_manual-0-4]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
+		<title><![CDATA[【投稿記事】公開方法]]></title>
+		<content:encoded><![CDATA[<!-- wp:heading -->
+<h2 class="wp-block-heading">ブロックエディタでの公開方法</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="[plugin_image_url file='5-1']" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>ブロックエディタの投稿の公開設定を操作する場合には上記画像の<span style="color:#cc1111" class="tadv-color">①～⑦</span>のボタンを操作することで可能です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">①</span> 「下書き保存」</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>投稿が最後まで完成していない等の理由で公開はしないが保存はしておきたい際にクリックいただくと「下書き」という形で投稿を保存できます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">②</span> 「プレビュー」</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>作成途中もしくは編集した投稿の表示を保存することなくブラウザで確認できる機能となります。<br>問題がないことを確認の上で投稿を公開させることができます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">③</span> 「投稿グループ名タブ（例：NEWS）」</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>投稿のステータスや公開日時を変更する際には、「<strong>投稿グループ名タブ</strong>」が選択されていることを確認してください。<br>※このタブが選択されていない場合は以下の<span style="color:#cc1111" class="tadv-color">④～⑥</span>の操作フィールドが表示されません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">④</span> 「表示状態」</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>「公開」ボタンをクリックしていただくと表示される以下のポップアップから投稿の表示状態が操作可能です。<br>そのまま公開したい場合は操作不要です。「<strong>非公開</strong>」を選択するとログインしているユーザーにだけページが確認できるようになります。また「<strong>パスワード保護</strong>」を選択した場合はページに任意のパスワードで保護することが可能です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="[plugin_image_url file='5-2']" alt=""/><figcaption class="wp-element-caption">※ 公開状態設定ポップアップ</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">⑤</span> 「公開（公開日時）」</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>「今すぐ」ボタンをクリックしていただくと表示される以下のポップアップから投稿の公開日時が操作可能です。<br>日時の変更が不要の場合は操作不要です。<br>未来の日時を設定した場合は、「<strong>予約投稿</strong>」となり設定した日時以降の時間になると自動で表示されるようになります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="[plugin_image_url file='5-3']" alt=""/><figcaption class="wp-element-caption">※ 公開日時設定ポップアップ</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">⑥</span> 「ゴミ箱へ移動」</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>投稿が不要になった際は「<strong>ゴミ箱へ移動</strong>」ボタンをクリックしていただくことで削除可能です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">⑦</span> 「公開」</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>投稿の内容が完成しましたら「<strong>公開</strong>」ボタンとクリックすることで投稿を公開（保存）することが可能です。<br>「新規追加」の場合には以下の赤枠のような確認の画面が表示されますので問題が無ければ再度「<strong>公開</strong>」ボタンをクリックしてください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="[plugin_image_url file='5-4']" alt=""/></figure>
+<!-- /wp:image -->]]>
+</content:encoded>
+</item>
+
 				</channel>
 				</rss>
 	

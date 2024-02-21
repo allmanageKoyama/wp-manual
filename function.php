@@ -49,7 +49,7 @@ function self_made_post_type()
       'exclude_from_search' => false, //検索対象に含めるか
       'show_ui' => true, //管理画面に表示するか
       'show_in_menu' => true, //管理画面のメニューに表示するか
-      'menu_position' => 1, //管理メニューの表示位置を指定
+      'menu_position' => 2, //管理メニューの表示位置を指定
       'hierarchical' => true, //階層構造を持たせるか
       'has_archive'   => true, //この投稿タイプのアーカイブを作成するか
       'supports' => array(
