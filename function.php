@@ -12,7 +12,7 @@
  * Description: Wordpressの操作マニュアルを管理画面に追加するプラグイン　有効にすると自動で投稿とデータが生成されます。編集メニューは運用時に非表示にしてください。
  * Author:      y-koyama
  * Author URI:  https://www.e-webseisaku.com/
- * Version:     0.0.1
+ * Version:     0.0.2
  * License:     GPLv3+
  */
 if (!defined('MY_PLUGIN_VERSION')) {
@@ -49,7 +49,7 @@ function self_made_post_type()
       'exclude_from_search' => false, //検索対象に含めるか
       'show_ui' => true, //管理画面に表示するか
       'show_in_menu' => true, //管理画面のメニューに表示するか
-      'menu_position' => 5, //管理メニューの表示位置を指定
+      'menu_position' => 1, //管理メニューの表示位置を指定
       'hierarchical' => true, //階層構造を持たせるか
       'has_archive'   => true, //この投稿タイプのアーカイブを作成するか
       'supports' => array(
