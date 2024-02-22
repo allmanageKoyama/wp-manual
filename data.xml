@@ -105,466 +105,187 @@
 		<wp:post_name><![CDATA[wp_manual-0-7]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
-		<title><![CDATA[ブロックエディタの使い方]]></title>
-		<content:encoded><![CDATA[<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-1']" alt=""/></figure>
+		<title><![CDATA[クラシックエディタの使い方]]></title>
+		<content:encoded><![CDATA[
+		<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="[plugin_image_url file='7-1']" alt=""/></figure>
 <!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>各投稿のコンテンツ部分を<span style="color:#cc1111" class="tadv-color"><strong>①赤枠</strong></span>の箇所で作成します。<br>実際に要素（ブロック）を追加していくには、左上にある青色の「<strong><span style="color:#cc1111" class="tadv-color">②</span>ブロックの追加</strong>」ボタンをクリックしてください。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-1']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>「<strong>ブロックの追加</strong>」ボタンをクリックすると上記の<span style="color:#cc1111" class="tadv-color"><strong>赤枠</strong></span>のように左側に使用できるブロックの一覧が表示されます。<br>この中から使用したいブロックを選択しテキストや画像を設定することでコンテンツを作成していくことが可能です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">各ブロックの説明</h2>
+<h2 id="クラシックエディタの各ボタンの説明">クラシックエディタの各ボタンの説明</h2>
 <!-- /wp:heading -->
-
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"align":"left","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image alignleft size-large"><img src="[plugin_image_url file='4-3']" alt=""/></figure>
-<!-- /wp:image --></div>
-<!-- /wp:column -->
-
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"align":"left","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image alignleft size-large"><img src="[plugin_image_url file='4-4']" alt=""/></figure>
-<!-- /wp:image --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#101ccb" class="tadv-color">①</span> 段落</h3>
+<h3 id="①-ビジュアル-テキスト-タブ"><span style="color:#cc1111" class="tadv-color">①</span> 「ビジュアル」「テキスト」タブ</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>⽂章を⼊⼒する。<br>[Enter]を押すと、別段落となり、新しい「段落」ブロックが挿⼊されます。<br>ブロック内で改⾏するときは、[Shift] + [Enter] を押します。</p>
+<p>「<strong>ビジュアル</strong>」が選択されていることを確認してください。<br>※タブがない場合は操作の必要はありません。</p>
 <!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-5']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"textAlign":"left","level":4} -->
-<h4 class="wp-block-heading has-text-align-left"><span style="color:#cc1111" class="tadv-color">①</span> ドラッグでブロックの位置を変更</h4>
-<!-- /wp:heading -->
-
-<!-- wp:heading {"textAlign":"left","level":4} -->
-<h4 class="wp-block-heading has-text-align-left"><span style="color:#cc1111" class="tadv-color">②</span> クリックでブロックの位置を上下に移動</h4>
-<!-- /wp:heading -->
-
-<!-- wp:heading {"textAlign":"left","level":4} -->
-<h4 class="wp-block-heading has-text-align-left"><span style="color:#cc1111" class="tadv-color">③</span> テキストの配置を変更</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>以下の「左寄せ」「中央寄せ」「右寄せ」から設定できます。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-6']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"textAlign":"left","level":4} -->
-<h4 class="wp-block-heading has-text-align-left"><span style="color:#cc1111" class="tadv-color">④</span> テキストを太字に変更</h4>
-<!-- /wp:heading -->
-
-<!-- wp:heading {"textAlign":"left","level":4} -->
-<h4 class="wp-block-heading has-text-align-left"><span style="color:#cc1111" class="tadv-color">⑤</span> テキストを斜体に変更</h4>
-<!-- /wp:heading -->
-
-<!-- wp:heading {"textAlign":"left","level":4} -->
-<h4 class="wp-block-heading has-text-align-left"><span style="color:#cc1111" class="tadv-color">⑥</span> テキストにリンクを設定</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>リンクを設定したいテキストをドラッグの上で「<span style="color:#cc1111" class="tadv-color">⑥</span><strong>リンク</strong>」ボタンをクリックすると下記のようなポップアップが表示されます。<br>入力フィールドにURLを入力して、入力フィールド右端の「<strong>送信</strong>」ボタンをクリックするとリンクが設定されます。<br>※入力フィールドにURLを入力しただけではリンクは設定されませんので必ず「<strong>送信</strong>」ボタンを押すようにしてください。<br>※リンク先を別タブで開くようにする場合には「<strong>新しいタブで開く</strong>」ボタンをONにしてください。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-7']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"textAlign":"left","level":4} -->
-<h4 class="wp-block-heading has-text-align-left"><span style="color:#cc1111" class="tadv-color">⑦</span> 下線や取り消し線など設定</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>ドラッグしたテキスト部分に「<strong>上付き</strong>」「<strong>下付き</strong>」「<strong>下線</strong>」「<strong>取り消し線</strong>」を設定します。<br>「<strong>書式設定をクリア</strong>」は既に設定されている「下線」や文字色といった設定をクリア（削除）します。<br>「<strong>キーボード入力</strong>」は使用する必要はありません。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-8']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"textAlign":"left","level":4} -->
-<h4 class="wp-block-heading has-text-align-left"><span style="color:#cc1111" class="tadv-color">⑧</span> オプション</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>「<strong>追加設定を表示/非表示</strong>」やブロックの「<strong>複製</strong>」「<strong>削除</strong>」などを行うことが可能です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-9']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>「<strong>追加設定を表示</strong>」ボタンをクリックすると画面の右側に以下のような追加設定の領域が表示されます。<br>「<strong>色設定</strong>」ではブロック全体の文字色・背景色の変更ができます。<br>「<strong>テキスト設定</strong>」の「<strong>ドロップキャップ</strong>」をONにすると段落の最初の一文字が拡大されて表示されます。<br>「<strong>テキストの色</strong>」はドラッグした領域の文字色・背景色を変更できます。<br>「<strong>高度な設定</strong>」は変更する必要はありません。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-10']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#101ccb" class="tadv-color">②</span> 見出し</h3>
+<h3 id="②-メディアを追加"><span style="color:#cc1111" class="tadv-color">②</span> メディアを追加</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>⾒出しを⼊⼒する。<br>「<strong>H２（大見出し）</strong>」「<strong>H３（中見出し）</strong>」「<strong>H4（小見出し）</strong>」から選択が可能です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-11']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#101ccb" class="tadv-color">③</span> リスト</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>&nbsp;リストを⼊⼒する。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-12']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"textAlign":"left","level":4} -->
-<h4 class="wp-block-heading has-text-align-left"><span style="color:#cc1111" class="tadv-color">①</span> 箇条書きリスト</h4>
-<!-- /wp:heading -->
-
-<!-- wp:heading {"textAlign":"left","level":4} -->
-<h4 class="wp-block-heading has-text-align-left"><span style="color:#cc1111" class="tadv-color">②</span> 番号付きリスト</h4>
-<!-- /wp:heading -->
-
-<!-- wp:heading {"textAlign":"left","level":4} -->
-<h4 class="wp-block-heading has-text-align-left"><span style="color:#cc1111" class="tadv-color">③</span> 階層を上げる</h4>
-<!-- /wp:heading -->
-
-<!-- wp:heading {"textAlign":"left","level":4} -->
-<h4 class="wp-block-heading has-text-align-left"><span style="color:#cc1111" class="tadv-color">④</span> 階層を下げる</h4>
-<!-- /wp:heading -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#101ccb" class="tadv-color">④</span> 引用</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>引⽤⽂を挿⼊する。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-13']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#101ccb" class="tadv-color">⑤</span> クラシック</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>クラシックエディタで編集する。<br>詳細は以下をご確認ください。</p>
+<p>画像を挿入します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul id="block-6b884b5f-cdf2-4c7c-ab9e-b50cac39fbb0"><!-- wp:list-item -->
-<li>05. クラシックエディターの使い方</li>
-<!-- /wp:list-item --></ul>
+<ul><li><a class="p-manual_link" data-to_view="4">【メディア】画像・ファイルの追加・挿入</a></li></ul>
 <!-- /wp:list -->
 
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-14']" alt=""/></figure>
-<!-- /wp:image -->
+<!-- wp:heading {"level":3} -->
+<h3 id="③-段落"><span style="color:#cc1111" class="tadv-color">③</span> 段落</h3>
+<!-- /wp:heading -->
 
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
+<!-- wp:paragraph -->
+<p>&nbsp;文字のスタイルを設定します。下記から選択できます。<br>&nbsp; 「<strong>段落</strong>」「<strong>見出し２</strong>」「<strong>見出し３</strong>」「<strong>見出し４</strong>」<br>※ 段落を分ける場合は「Enter」を　段落内で改行する場合は「Shift+Enter」を押してください。</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#101ccb" class="tadv-color">⑥</span> テーブル（表）</h3>
+<h3 id="④-文字色"><span style="color:#cc1111" class="tadv-color">④</span> 文字色</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>表を挿⼊する。<br>「<strong>カラム数</strong>」と「<strong>行数</strong>」を入力の上「表を作成」ボタンを押すことでテーブルを挿入することが可能です。</p>
+<p>文字の色を変更します。</p>
 <!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-15']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-16']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"textAlign":"left","level":4} -->
-<h4 class="wp-block-heading has-text-align-left"><span style="color:#cc1111" class="tadv-color">①</span> 表の編集</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>⾏・列の追加・削除が可能です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"textAlign":"left","level":4} -->
-<h4 class="wp-block-heading has-text-align-left"><span style="color:#cc1111" class="tadv-color">②</span> オプション（追加設定）</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>「<strong>追加設定を表示</strong>」ボタンをクリックすると画面の右側に以下のような追加設定の領域が表示されます。<br>「<strong>表の設定</strong>」項目で以下の追加設定が可能です。<br>「<strong>表のセル幅を固定</strong>」はセルの幅を可変から固定に変更します。<br>「<strong>ヘッダーセクション</strong>」は表にヘッダーラベルを表⽰します。<br>「<strong>フッターセクション</strong>」は表にフッターラベルを表⽰します。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-17']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#101ccb" class="tadv-color">⑦</span> 画像</h3>
+<h3 id="⑤-背景色"><span style="color:#cc1111" class="tadv-color">⑤</span> 背景色</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>画像を挿⼊する。<br>詳細は以下をご確認ください。</p>
+<p>&nbsp;背景色を変更します。</p>
 <!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul id="block-6b884b5f-cdf2-4c7c-ab9e-b50cac39fbb0"><!-- wp:list-item -->
-<li><a class="p-manual_link" data-to_view="3">画像・ファイルの追加・挿入</a></li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-18']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#101ccb" class="tadv-color">⑧</span> ギャラリー</h3>
+<h3 id="⑥-太字"><span style="color:#cc1111" class="tadv-color">⑥</span> 太字</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>複数の画像を並べて挿⼊する。<br>詳細は以下をご確認ください。</p>
+<p>文字を太字にします。</p>
 <!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul id="block-6b884b5f-cdf2-4c7c-ab9e-b50cac39fbb0"><!-- wp:list-item -->
-<li><a class="p-manual_link" data-to_view="3">画像・ファイルの追加・挿入</a></li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-19']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#101ccb" class="tadv-color">⑨</span> ファイル</h3>
+<h3 id="⑦-下線"><span style="color:#cc1111" class="tadv-color">⑦</span> 下線</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>ダウンロード可能なファイルを挿⼊する。<br>詳細は以下をご確認ください。</p>
+<p>&nbsp;文字に下線をつけます。</p>
 <!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul id="block-6b884b5f-cdf2-4c7c-ab9e-b50cac39fbb0"><!-- wp:list-item -->
-<li><a class="p-manual_link" data-to_view="3">画像・ファイルの追加・挿入</a></li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-20']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#101ccb" class="tadv-color">⑩</span> 動画</h3>
+<h3 id="⑧-打ち消し線"><span style="color:#cc1111" class="tadv-color">⑧</span> 打ち消し線</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>動画を挿⼊する。<br>詳細は以下をご確認ください。</p>
+<p>&nbsp;文字に打消し線をつけます。</p>
 <!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul id="block-6b884b5f-cdf2-4c7c-ab9e-b50cac39fbb0"><!-- wp:list-item -->
-<li><a class="p-manual_link" data-to_view="3">画像・ファイルの追加・挿入</a></li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-21']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#101ccb" class="tadv-color">⑪</span> ボタン</h3>
+<h3 id="⑨-リスト"><span style="color:#cc1111" class="tadv-color">⑨</span> リスト</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>ボタンを設置する。</p>
+<p>頭に「・」の付いたリストを作成できます。</p>
 <!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-22']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"textAlign":"left","level":4} -->
-<h4 class="wp-block-heading has-text-align-left"><span style="color:#cc1111" class="tadv-color">①</span> ボタンに表示するテキストを入力</h4>
-<!-- /wp:heading -->
-
-<!-- wp:heading {"textAlign":"left","level":4} -->
-<h4 class="wp-block-heading has-text-align-left"><span style="color:#cc1111" class="tadv-color">②</span> ボタンのリンク先を設定</h4>
-<!-- /wp:heading -->
-
-<!-- wp:heading {"textAlign":"left","level":4} -->
-<h4 class="wp-block-heading has-text-align-left"><span style="color:#cc1111" class="tadv-color">③</span> オプション（追加設定）</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>「<strong>追加設定を表示</strong>」ボタンをクリックすると画面の右側に以下のような追加設定の領域が表示されます。<br>「<strong>スタイル</strong>」ではボタンを「<strong>塗りつぶし</strong>」表示にするか「<strong>アウトライン</strong>」表示にするかを設定できます。<br>「<strong>枠線設定</strong>」の「<strong>角丸半径</strong>」はボタンを角丸にするかどうかを設定します。<br>角丸にしたくない場合は値に「0（ゼロ）」を入力してください。<br>「<strong>幅の設定</strong>」ではボタンの幅を「25%」「50%」「75%」「100%」から選択することが可能です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-23']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#101ccb" class="tadv-color">⑫</span> カラム</h3>
+<h3 id="⑩-番号付きリスト"><span style="color:#cc1111" class="tadv-color">⑩</span> 番号付きリスト</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>カラムレイアウトでコンテンツを配置する。<br>開始時のカラムパターンを選択することで２列、３列表示にすることが可能です。</p>
+<p>&nbsp;頭に数字の付いたリストを作成できます。</p>
 <!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-24']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-25']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p>「<strong>＋</strong>」ボタンを押すことで各カラムにブロックを追加してコンテンツを作成することが可能です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#101ccb" class="tadv-color">⑬</span> 区切り</h3>
+<h3 id="⑪-テーブル"><span style="color:#cc1111" class="tadv-color">⑪</span> テーブル</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>&nbsp;区切り線を挿⼊する。</p>
+<p>テーブルを作成できます。</p>
 <!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-26']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#101ccb" class="tadv-color">⑭</span> ショートコード</h3>
+<h3 id="⑫-左寄せ"><span style="color:#cc1111" class="tadv-color">⑫</span> 左寄せ</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>&nbsp;ショートコードでコンテンツを追加する。<br>※プラグイン等で生成されたショートコードを使用する場合に利用します。</p>
+<p>文章を左揃えにします。</p>
 <!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-27']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#101ccb" class="tadv-color">⑮</span> カスタムHTML</h3>
+<h3 id="⑬-中央寄せ"><span style="color:#cc1111" class="tadv-color">⑬</span> 中央寄せ</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>&nbsp;HTMLコードを⼊⼒する。<br>編集するには「<strong>HTML/CSS</strong>」の知識が必要になります。</p>
+<p>&nbsp;文章を中央揃えにします。</p>
 <!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-28']" alt=""/></figure>
-<!-- /wp:image -->
-
-<!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#101ccb" class="tadv-color">⑯</span> 埋め込み</h3>
+<h3 id="⑭-右寄せ"><span style="color:#cc1111" class="tadv-color">⑭</span> 右寄せ</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>&nbsp;外部サイトのコンテンツを挿⼊する。<br>対応サービスの表示したいコンテンツのURLを入力の上で「<strong>埋め込み</strong>」ボタンをクリックしてください。<br>※ 「YouTube」「Twitter」「Tik Tok」など30種類以上に対応。詳細は<a rel="noreferrer noopener" href="https://wordpress.org/support/article/embeds/" target="_blank">こちら</a></p>
+<p>&nbsp;文章を右揃えにします。</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='4-29']" alt=""/></figure>
-<!-- /wp:image -->
+<!-- wp:heading {"level":3} -->
+<h3 id="⑮-リンクの挿入"><span style="color:#cc1111" class="tadv-color">⑮</span> リンクの挿入</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>&nbsp;文章にリンクを挿入します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 id="⑯-リンクの削除"><span style="color:#cc1111" class="tadv-color">⑯</span> リンクの削除</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>&nbsp;挿入したリンクを削除します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 id="⑰-インデントを増やす"><span style="color:#cc1111" class="tadv-color">⑰</span> インデントを増やす</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>&nbsp;行頭の字下げを増やします。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 id="⑱-インデントを減らす"><span style="color:#cc1111" class="tadv-color">⑱</span> インデントを減らす</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>&nbsp;行頭の字下げを減らします。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 id="⑲-特殊文字"><span style="color:#cc1111" class="tadv-color">⑲</span> 特殊文字</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>&nbsp;記号などの特殊文字を挿入します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 id="⑳-書式のクリア"><span style="color:#cc1111" class="tadv-color">⑳</span> 書式のクリア</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>文字色など設定した書式をリセットします。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 id="㉑-集中執筆モード"><span style="color:#cc1111" class="tadv-color">㉑</span> 集中執筆モード</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>記事の作成に不要な要素を消すことで記事の作成に集中できるようにします。</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p></p>
@@ -715,11 +436,11 @@
 <!-- /wp:separator -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading" id="ブロックエディタ-新規追加-編集">【ブロックエディタ】新規追加・編集</h2>
+<h2 class="wp-block-heading" id="クラシックエディタ-新規追加-編集">【クラシックエディタ】新規追加・編集</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='6-2']" alt=""/><figcaption class="wp-element-caption">※ ブロックエディターの基本的な画面</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="[plugin_image_url file='6-2']" alt=""/><figcaption class="wp-element-caption">※ クラシックエディターの基本的な画面</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
@@ -740,7 +461,7 @@
 
 <!-- wp:list -->
 <ul><!-- wp:list-item -->
-<li><a class="p-manual_link" data-to_view="2">ブロックエディタの使い方</a></li>
+<li><a class="p-manual_link" data-to_view="2">クラシックエディタの使い方</a></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -763,15 +484,7 @@
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading" id="④-パーマリンク"><span style="color:#cc1111" class="tadv-color">④</span> パーマリンク</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>操作の必要はありません。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading" id="⑤-カテゴリ"><span class="tadv-color" style="color:#cc1111">⑤</span> アイキャッチ画像</h3>
+<h3 class="wp-block-heading" id="⑤-カテゴリ"><span class="tadv-color" style="color:#cc1111">④</span> アイキャッチ画像</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -793,20 +506,25 @@
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_type><![CDATA[wp_manual]]></wp:post_type>
 		<title><![CDATA[【投稿記事】公開方法]]></title>
-		<content:encoded><![CDATA[<!-- wp:heading -->
-<h2 class="wp-block-heading">ブロックエディタでの公開方法</h2>
+		<content:encoded><![CDATA[
+		<!-- wp:heading -->
+<h2>クラシックエディタの公開方法</h2>
 <!-- /wp:heading -->
 
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='5-1']" alt=""/></figure>
+<!-- wp:image {"id":178,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="[plugin_image_url file='8-1']" alt="" class="wp-image-178"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>ブロックエディタの投稿の公開設定を操作する場合には上記画像の<span style="color:#cc1111" class="tadv-color">①～⑦</span>のボタンを操作することで可能です。</p>
+<p>クラシックエディタの投稿の公開設定を操作する場合には上記画像の赤枠の箇所を操作することで可能です。<br>以下の画像は上記画像の赤枠の箇所の拡大したものになります。<br>※以下の画像は上記画像の赤枠の箇所の「編集」ボタンをクリックし、操作フィールドを全て表示させています。</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:image {"id":179,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="[plugin_image_url file='8-2']" alt="" class="wp-image-179"/></figure>
+<!-- /wp:image -->
+
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">①</span> 「下書き保存」</h3>
+<h3><span style="color:#cc1111" class="tadv-color">①</span> 「下書き保存」</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -814,7 +532,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">②</span> 「プレビュー」</h3>
+<h3><span style="color:#cc1111" class="tadv-color">②</span> 「プレビュー」</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -822,56 +540,41 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">③</span> 「投稿グループ名タブ（例：NEWS）」</h3>
+<h3><span style="color:#cc1111" class="tadv-color">③</span> 「ステータス」</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>投稿のステータスや公開日時を変更する際には、「<strong>投稿グループ名タブ</strong>」が選択されていることを確認してください。<br>※このタブが選択されていない場合は以下の<span style="color:#cc1111" class="tadv-color">④～⑥</span>の操作フィールドが表示されません。</p>
+<p>ステータスというテキストの横にある「<strong>編集</strong>」ボタンをクリックすると操作フィールドが表示されます。<br>新規追加の際は操作する必要はありません。既に公開した投稿を「<strong>下書き</strong>」に戻したい場合に変更可能です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">④</span> 「表示状態」</h3>
+<h3><span style="color:#cc1111" class="tadv-color">④</span> 「公開状態」</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>「公開」ボタンをクリックしていただくと表示される以下のポップアップから投稿の表示状態が操作可能です。<br>そのまま公開したい場合は操作不要です。「<strong>非公開</strong>」を選択するとログインしているユーザーにだけページが確認できるようになります。また「<strong>パスワード保護</strong>」を選択した場合はページに任意のパスワードで保護することが可能です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='5-2']" alt=""/><figcaption class="wp-element-caption">※ 公開状態設定ポップアップ</figcaption></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">⑤</span> 「公開（公開日時）」</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>「今すぐ」ボタンをクリックしていただくと表示される以下のポップアップから投稿の公開日時が操作可能です。<br>日時の変更が不要の場合は操作不要です。<br>未来の日時を設定した場合は、「<strong>予約投稿</strong>」となり設定した日時以降の時間になると自動で表示されるようになります。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='5-3']" alt=""/><figcaption class="wp-element-caption">※ 公開日時設定ポップアップ</figcaption></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">⑥</span> 「ゴミ箱へ移動」</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>投稿が不要になった際は「<strong>ゴミ箱へ移動</strong>」ボタンをクリックしていただくことで削除可能です。</p>
+<p>公開状態というテキストの横にある「<strong>編集</strong>」ボタンをクリックすると操作フィールドが表示されます。<br>そのまま公開したい場合は操作不要です。「<strong>非公開</strong>」を選択するとログインしているユーザーにだけページが確認できるようになります。また「<strong>パスワード保護</strong>」を選択した場合はページに任意のパスワードで保護することが可能です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><span style="color:#cc1111" class="tadv-color">⑦</span> 「公開」</h3>
+<h3><span style="color:#cc1111" class="tadv-color">⑤</span> 「すぐに公開する（投稿日）」</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>投稿の内容が完成しましたら「<strong>公開</strong>」ボタンとクリックすることで投稿を公開（保存）することが可能です。<br>「新規追加」の場合には以下の赤枠のような確認の画面が表示されますので問題が無ければ再度「<strong>公開</strong>」ボタンをクリックしてください。</p>
+<p><strong>すぐに</strong>公開する（投稿日）というテキストの横にある「<strong>編集</strong>」ボタンをクリックすると操作フィールドが表示されます。<br>日時の変更が不要の場合は操作不要です。<br>未来の日時を設定した場合は、「<strong>予約投稿</strong>」となり設定した日時以降の時間になると自動で表示されるようになります。</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="[plugin_image_url file='5-4']" alt=""/></figure>
-<!-- /wp:image -->]]>
+<!-- wp:heading {"level":3} -->
+<h3><span style="color:#cc1111" class="tadv-color">⑦</span> 「公開」</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>投稿の内容が完成しましたら、「<strong>公開</strong>」ボタンを押すことで投稿を公開することが可能です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+]]>
 </content:encoded>
 </item>
 

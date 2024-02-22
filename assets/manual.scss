@@ -37,6 +37,13 @@
     background-color: #003974;
     color: #ffffff;
   }
+
+  figure {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
 }
 
 .p-manual {

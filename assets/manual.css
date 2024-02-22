@@ -28,6 +28,10 @@
   background-color: #003974;
   color: #ffffff;
 }
+.wp-editor figure img {
+  max-width: 100%;
+  height: auto;
+}
 
 .p-manual {
   display: none;
