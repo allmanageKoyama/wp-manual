@@ -24,7 +24,7 @@ if (!defined('MY_PLUGIN_PATH')) {
 if (!defined('MY_PLUGIN_URL')) {
   define('MY_PLUGIN_URL', plugins_url('/', __FILE__));
 }
-add_action('wp_enqueue_scripts', function () {
+add_action('admin_enqueue_scripts', function () {
 
   /** CSS */
   wp_enqueue_style(
