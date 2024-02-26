@@ -24,16 +24,18 @@ if (!defined('MY_PLUGIN_PATH')) {
 if (!defined('MY_PLUGIN_URL')) {
   define('MY_PLUGIN_URL', plugins_url('/', __FILE__));
 }
-add_action('admin_enqueue_scripts', function () {
-
-  /** CSS */
-  wp_enqueue_style(
-    'my-test-style',
-    MY_PLUGIN_URL . 'assets/style.css',
-    array(),
-    MY_PLUGIN_VERSION
-  );
+add_action('admin_enqueue_scripts', function ($hook_suffix) {
+  // 管理ページのクエリパラメータをチェックする
+  if (isset($_GET['page']) && $_GET['page'] === 'wp_manual') {
+    wp_enqueue_style(
+      'my-test-style',
+      MY_PLUGIN_URL . 'assets/style.css',
+      array(),
+      MY_PLUGIN_VERSION
+    );
+  }
 });
+
 
 
 //======================================================================
